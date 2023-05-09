@@ -17,7 +17,7 @@
  ?>
   <?php
    $stringtunggal = "javascript, html, css, php";
-   $explode = explode("-", $stringtunggal);
+   $explode = explode("/", $stringtunggal);
    print_r ($explode); // menjadi bentuk array dari string tunggal
 
  ?>
